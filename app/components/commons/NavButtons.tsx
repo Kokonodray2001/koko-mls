@@ -6,8 +6,8 @@ interface Props{
 }
 export default function NavButtons({pageName} : Props) {
   return (
-    <div>
-      <Button className="">
+    <div className="h-fit bg-black m-2 border-2 rounded-2xl hover:bg-gray-600">
+      <Button>
         {pageName}
       </Button>
     </div>
